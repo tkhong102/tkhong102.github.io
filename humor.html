@@ -1,0 +1,161 @@
+<!DOCTYPE HTML>
+<!--
+	Parallelism by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Bokeh</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<section id="header">
+				<div class="container">
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Nav -->
+				<nav id="nav">
+
+					<button class="tablink"><a href = index.html>Family</button></a>
+					<button class="tablink"><a href = friends.html>Friends</button></a>
+					<button class="tablink"><a href = photography.html>Photography</button></a>
+					<button class="tablink"><a href = food.html>Food</button></a>
+					<button class="tablink"><a href = humor.html>Humor</button></a>
+				</nav>
+
+				<!-- Main -->
+					<section id="main">
+
+						<!-- Items -->
+							<div class="items">
+
+								<div class="item intro span-2">
+									<h1>Humor</h1>
+									<p>“Life is short, <br />
+									smile while you still have teeth.” <br />
+									-Mallory Hopkins
+								</p>
+								</div>
+
+								<article class="item thumb span-1">
+									<a href="images/fulls/humor1.jpg" class="image"><img src="images/fulls/humor1.jpg" alt=""></a>
+								</article>
+
+								<article class="item thumb span-2">
+									<a href="images/fulls/humor3.jpg" class="image"><img src="images/fulls/humor3.jpg" alt=""></a>
+								</article>
+
+								<article class="item thumb span-1">
+									<a href="images/fulls/humor5.jpg" class="image"><img src="images/fulls/humor5.jpg" alt=""></a>
+								</article>
+
+								<article class="item thumb span-3">
+									<a href="images/fulls/humor4.jpg" class="image"><img src="images/fulls/humor4.jpg" alt=""></a>
+								</article>
+
+								<article class="item thumb span-1">
+									<a href="images/fulls/humor9.jpg" class="image"><img src="images/fulls/humor9.jpg" alt=""></a>
+								</article>
+
+								<article class="item thumb span-2">
+									<a href="images/fulls/humor6.jpg" class="image"><img src="images/fulls/humor6.jpg" alt=""></a>
+								</article>
+
+							</div>
+
+						<!-- Items -->
+							<div class="items">
+
+								<article class="item thumb span-1">
+									<a href="images/fulls/humor7.jpg" class="image"><img src="images/fulls/humor7.jpg" alt=""></a>
+								</article>
+
+								<article class="item thumb span-1">
+									<a href="images/fulls/humor8.jpg" class="image"><img src="images/fulls/humor8.jpg" alt=""></a>
+								</article>
+
+								<article class="item thumb span-2">
+									<a href="images/fulls/humor9.jpg" class="image"><img src="images/fulls/humor9.jpg" alt=""></a>
+								</article>
+
+								<article class="item thumb span-1">
+									<a href="images/fulls/humor4.jpg" class="image"><img src="images/fulls/humor4.jpg" alt=""></a>
+								</article>
+
+								<article class="item thumb span-3">
+									<a href="images/fulls/humor1.jpg" class="image"><img src="images/fulls/humor1.jpg" alt=""></a>
+								</article>
+
+								<article class="item thumb span-2">
+									<a href="images/fulls/humor3.jpg" class="image"><img src="images/fulls/humor3.jpg" alt=""></a>
+								</article>
+
+							</div>
+
+					</section>
+
+				<!-- Footer -->
+					<section id="footer">
+						<section>
+							<p>This is <strong>Bokeh</strong>, sharing life as it happens...</p>
+							<p>Add photos</p>
+							<button>
+							<form action="/action_page.php">
+								  <input type="file" name="pic" accept="image/*">
+								  <input type="submit">
+								</form>
+							</button>
+						</section>
+
+						<section>
+							<ul class="icons">
+								<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+								<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+								<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+								<li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>
+								<li><a href="#" class="icon fa-envelope"><span class="label">Email</span></a></li>
+							</ul>
+							<ul class="copyright">
+								<li>&copy; Bokeh</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+							</ul>
+						</section>
+					</section>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.poptrox.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+			<script>
+			function openPage(pageName,elmnt,color) {
+	    var i, tabcontent, tablinks;
+	    tabcontent = document.getElementsByClassName("tabcontent");
+	    for (i = 0; i < tabcontent.length; i++) {
+	        tabcontent[i].style.display = "none";
+	    }
+	    tablinks = document.getElementsByClassName("tablink");
+	    for (i = 0; i < tablinks.length; i++) {
+	        tablinks[i].style.backgroundColor = "";
+	    }
+	    document.getElementById(pageName).style.display = "block";
+	    elmnt.style.backgroundColor = color;
+
+			}
+	// Get the element with id="defaultOpen" and click on it
+		document.getElementById("defaultOpen").click();
+	</script>
+
+	</body>
+</html>
