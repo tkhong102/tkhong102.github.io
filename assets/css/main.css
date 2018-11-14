@@ -22,8 +22,9 @@ section, summary, time, mark, audio, video {
 	padding: 0;
 	border: 0;
 	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;}
+	/* font: inherit; */
+	vertical-align: baseline;
+}
 
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
@@ -38,6 +39,7 @@ footer, header, hgroup, menu, nav, section {
   cursor: pointer;
   padding: 14px 16px;
   font-size: 17px;
+	font-family: 'KoHo', sans-serif;
   width: 20%;
 }
 
@@ -61,7 +63,7 @@ footer, header, hgroup, menu, nav, section {
 		}
 
 		#header h1 {
-			font-family: 'Arvo';
+			font-family: 'KoHo', sans-serif;
 			font-weight: 700;
 			color: #fff;
 			text-shadow: 0.05em 0.075em 0 rgba(0, 0, 0, 0.1);
@@ -251,11 +253,15 @@ input, select, textarea {
 		}
 
 	body, input, select, textarea {
-		font-family: 'Source Sans Pro';
+		font-family: 'KoHo', sans-serif;
 		font-weight: 400;
 		padding: 0;
 		font-size: 13pt;
 		color: rgba(255, 255, 255, 0.6);
+	}
+
+	.nav {
+		font-family: 'KoHo' !important, sans-serif;
 	}
 
 		@media screen and (max-width: 1680px) {
@@ -266,13 +272,13 @@ input, select, textarea {
 
 		}
 
-		@media screen and (max-width: 1280px) {
+		/* @media screen and (max-width: 1280px) {
 
 			body, input, select, textarea {
 				font-size: 10pt;
 			}
 
-		}
+		} */
 
 		@media screen and (max-width: 980px) {
 
@@ -653,7 +659,7 @@ input, select, textarea {
 				opacity: 0;
 			}
 
-		@media screen and (max-width: 1680px) {
+		/* @media screen and (max-width: 1680px) {
 
 			#main .item {
 				height: 14em;
@@ -671,7 +677,7 @@ input, select, textarea {
 					width: 34em;
 				}
 
-		}
+		} */
 
 		@media screen and (max-width: 736px) {
 
